@@ -16,7 +16,7 @@ void main() async {
         primaryColor: primaryColor,
         accentColor: secondaryColor,
       ),
-      home: InitialWidget(),
+      home: InitialWidget(),//sdlkfjcnv,mjzxn
     ),
   );
 }
