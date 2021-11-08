@@ -31,3 +31,38 @@ class InitialWidget extends StatelessWidget {
     return isLoggedIn ? HomePage() : LoginPage();
   }
 }
+
+//TODO: Add Locale & dark theme
+// return AdaptiveTheme(
+// light: ThemeData(
+// brightness: Brightness.light,
+// primarySwatch: Colors.blue,
+// accentColor: Colors.amber,
+// // HERE ADD SOME THEMES IF NEEDED.
+// ),
+// dark: ThemeData(
+// brightness: Brightness.dark,
+// primarySwatch: Colors.red,
+// accentColor: Colors.amber,
+// // HERE ADD SOME THEMES IF NEEDED.
+// ),
+// initial: AdaptiveThemeMode.system,
+// builder: (theme, darkTheme) {
+// return MaterialApp(
+// title: 'Seen App',
+// debugShowCheckedModeBanner: false,
+// localizationsDelegates: [
+// GlobalCupertinoLocalizations.delegate,
+// GlobalMaterialLocalizations.delegate,
+// GlobalWidgetsLocalizations.delegate,
+// ],
+// supportedLocales: [
+// Locale('ar', 'AE'),
+// Locale('en', 'US'),
+// ],
+// locale: Locale('ar', 'AE'),
+// theme: theme,
+// darkTheme: darkTheme,
+// home: RootPage(),
+// );
+// });
